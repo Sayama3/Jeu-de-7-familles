@@ -1,16 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b75522ae-bae6-44f9-85a5-19915720defa" name="Default Changelist" comment="" />
+    <list default="true" id="b75522ae-bae6-44f9-85a5-19915720defa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jeu de 7 familles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/01.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/02.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/03.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/04.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/05.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/06.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/11.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/12.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/13.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/14.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/15.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/16.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/21.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/22.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/23.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/24.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/25.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/26.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/31.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/32.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/33.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/34.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/35.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/36.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/41.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/42.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/43.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/44.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/45.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/46.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/51.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/52.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/53.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/54.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/55.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/56.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/61.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/62.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/63.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/64.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/65.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/66.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EmptiImage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EmptiImage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Generator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Generator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovableCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MovableCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MoveCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/MoveCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/OverLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/OverLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MovableCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/OverLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MoveCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/RetourPioche.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Generator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -19,6 +119,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/MovableCard.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MoveCard.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/OverLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RetourPioche.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Generator.cs" />
       </list>
     </option>
@@ -33,6 +134,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,6 +173,8 @@
       <workItem from="1586206374452" duration="1487000" />
       <workItem from="1586207982078" duration="706000" />
       <workItem from="1586366197685" duration="370000" />
+      <workItem from="1586522713750" duration="3496000" />
+      <workItem from="1586526250204" duration="7359000" />
     </task>
     <servers />
   </component>
@@ -80,69 +184,69 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586206330508">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330508" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1586206330510">
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330510" />
-    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1586206330509">
+    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330509" />
-    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1586206330510">
+    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1586526212401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586206330510" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586526212401" />
   </component>
 </project>

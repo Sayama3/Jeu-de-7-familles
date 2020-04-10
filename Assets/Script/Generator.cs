@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using UnityEngine.UI;
+// using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
     
 
@@ -47,12 +48,13 @@ public class Generator : MonoBehaviour
         if (actualSprite.Count > 0)
         {
 
-            var newCard = Instantiate(emptyImage,positionDeDepart.position,Quaternion.identity, parent);
-            Image img = newCard.GetComponent<Image>();
+            var newCard = Instantiate(emptyImage,positionDeDepart.position,positionDeDepart.rotation,parent);
+            newCard.AddComponent<BoxCollider2D>();
+            SpriteRenderer img = newCard.GetComponent<SpriteRenderer>();
             int index = RandomIndex(actualSprite.Count);
             img.sprite = actualSprite[index];
             actualSprite.RemoveAt(index);
-            Debug.Log("Affichage de l'image");
+            // Debug.Log("Affichage de l'image");
             img.color = Color.white;
             // img.GetComponentInChildren<Text>().text = "";
 
@@ -72,7 +74,7 @@ public class Generator : MonoBehaviour
     [Button(ButtonSizes.Large)]
     public void ResetPaquet()
     {
-        Random.InitState((int)DateTime.Now.Ticks);
+        Random.InitState((int)(DateTime.Now.Ticks * Random.Range(1f,999999f)));
         foreach (var carte in GameObject.FindGameObjectsWithTag("Carte"))
         {
             Destroy(carte);

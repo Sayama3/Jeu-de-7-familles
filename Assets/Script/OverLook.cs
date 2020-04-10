@@ -1,112 +1,114 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 public class OverLook : MonoBehaviour
 {
-    private bool inSelection = false;
-    
-    GraphicRaycaster m_Raycaster;
-    PointerEventData m_PointerEventData;
-    EventSystem m_EventSystem;
 
-    private GameObject card;
+    [SerializeField, MinMaxSlider(-90f, 90f,true)]
+    private Vector2 ScreenWidth,ScreenHeight;
+    [HideInInspector]public bool inSelection = false;
+
+    public string cardName;
+
+    // private GameObject card;
     [SerializeField,Range(0.1f,5f)] float timer = 2f;
     private float timePassed = 0;
     private bool hasUpdate = false;
     [SerializeField] private float sizeMultiplicator = 4f;
-    void Start()
+
+
+    // private Vector2 oldMousePosition;
+    private Vector2 MousePosition;
+
+    private Camera cam;
+
+    private GameObject eventSystem;
+    
+    
+    private void Start()
     {
-        //Fetch the Raycaster from the GameObject (the Canvas)
-        m_Raycaster = GetComponent<GraphicRaycaster>();
-        //Fetch the Event System from the Scene
-        m_EventSystem = GetComponent<EventSystem>();
+        cam = Camera.main;
+        eventSystem = GameObject.FindGameObjectWithTag("EventSystem");
+        cardName = GetComponent<SpriteRenderer>().sprite.name;
     }
 
-    void Update()
+
+
+    private void OnMouseDown()
+    {
+        // oldMousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        inSelection = true;
+        Reduire();
+        timePassed = 0;
+    }
+
+    private void OnMouseDrag()
+    {
+        MousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        // var deplacement = MousePosition - oldMousePosition;
+        var nexPos = MousePosition;
+        if (nexPos.x > ScreenHeight.y)
+        {
+            nexPos.x = ScreenHeight.y;
+        }
+        else if (nexPos.x < ScreenHeight.x)
+        {
+            nexPos.x = ScreenHeight.x;
+        }
+        
+        if (nexPos.y > ScreenWidth.y)
+        {
+            nexPos.y = ScreenWidth.y;
+        }
+        else if (nexPos.y < ScreenWidth.x)
+        {
+            nexPos.y = ScreenWidth.x;
+        }
+
+        transform.position = nexPos;
+        
+    }
+
+    private void OnMouseUp()
+    {
+        inSelection = false;
+    }
+
+    private void OnMouseExit()
+    {
+        // Debug.Log("Mouse Exit");
+        Reduire();
+        timePassed = 0;
+    }
+    
+    private void OnMouseOver()
     {
         if (!inSelection)
         {
-            //Set up the new Pointer Event
-            m_PointerEventData = new PointerEventData(m_EventSystem);
-            //Set the Pointer Event Position to that of the mouse position
-            m_PointerEventData.position = Input.mousePosition;
-
-            //Create a list of Raycast Results
-            List<RaycastResult> results = new List<RaycastResult>();
-
-            //Raycast using the Graphics Raycaster and mouse click position
-            m_Raycaster.Raycast(m_PointerEventData, results);
-
-            //For every result returned, output the name of the GameObject on the Canvas hit by the Ray
-            bool found = false;
-            foreach (RaycastResult result in results)
-            {
-                if (result.gameObject.CompareTag("Carte"))
-                {
-                    found = true;
-                    if (card != null && card == result.gameObject)
-                    {
-                        timePassed += Time.deltaTime;
-                        break;
-                    }
-                    else
-                    {
-                        if (card != null)
-                        {
-                            Reduire();
-                        }
-                        card = result.gameObject;
-                        timePassed = 0;
-                        hasUpdate = false;
-                        break;
-                    }
-
-                }
-            }
-
-            if (!found && card != null && timePassed >= timer)
-            {
-                Reduire();
-                
-                card = null;
-                timePassed = 0;
-                hasUpdate = false;
-            }
-
-            if (timePassed >= timer && !hasUpdate && card != null)
+            timePassed += Time.deltaTime;
+            if (timePassed >= timer)
             {
                 Agrandire();
-                hasUpdate = true;
             }
         }
     }
-
     private void Agrandire()
     {
-        var vec = new Vector2(100 * sizeMultiplicator,160 * sizeMultiplicator);
-        card.GetComponent<RectTransform>().sizeDelta = vec;
+        // if(card==null) return;
+        var vec = new Vector3(sizeMultiplicator,sizeMultiplicator,sizeMultiplicator);
+        transform.localScale = vec;
+        // Debug.Log(vec + " - " + transform.localScale);
+
     }
 
     private void Reduire()
     {
-        var vec = new Vector2(100,160);
-        card.GetComponent<RectTransform>().sizeDelta = vec;
+        // if(card==null) return;
+        var vec = new Vector3(1,1,1);
+        transform.localScale = vec;
     }
 
-    public void IsSelecter(bool variable)
-    {
-        inSelection = variable;
-        if (variable)
-        {
-            if (hasUpdate && card != null)
-            {
-                Reduire();
-            }
-            card = null;
-            hasUpdate = false;
-            timePassed = 0;
-        }
-        
-    }
 }
